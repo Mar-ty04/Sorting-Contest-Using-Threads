@@ -1,0 +1,39 @@
+=======Start=======
+marty
+Thu Oct 31 13:36:43 PDT 2024
+My machine has this many processors
+14
+Generating 1000000 random numbers
+Starting system sort
+
+real	0m0.287s
+user	0m1.013s
+sys	0m0.152s
+Starting my sort
+Process Thread 2 swap count: 973292005
+Process Thread 16 swap count: 976080245
+Process Thread 9 swap count: 979310427
+Process Thread 5 swap count: 971692211
+Process Thread 1 swap count: 973763706
+Process Thread 13 swap count: 975507875
+Process Thread 12 swap count: 979590517
+Process Thread 10 swap count: 976952398
+Process Thread 15 swap count: 979234906
+Process Thread 6 swap count: 974607739
+Process Thread 7 swap count: 979088786
+Process Thread 8 swap count: 979469074
+Process Thread 4 swap count: 967494481
+Process Thread 11 swap count: 978355985
+Process Thread 3 swap count: 975910128
+Process Thread 14 swap count: 976618648
+Total swaps: 15616969131
+
+real	0m15.893s
+user	3m27.652s
+sys	0m0.543s
+-rw-r--r-- 1 marty marty 7389164 Oct 31 13:36 systemsort.out
+-rw-r--r-- 1 marty marty 7389164 Oct 31 13:37 mysort.out
+Comparing systemsort.out to mysort.out
+All done with diff compare
+=======End=======
+Thu Oct 31 13:37:06 PDT 2024
